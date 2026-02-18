@@ -105,7 +105,7 @@ function Hero({ onOpenBooking }) {
           <h1 className="mt-6 font-heading text-4xl leading-tight md:text-5xl lg:text-6xl">
             <span className="block text-slate-100">Votre partenaire</span>
             <span className="mt-2 block text-sps-gold">juridique &amp; administratif</span>
-            <span className="mt-2 block text-slate-200">à Cococodji</span>
+            <span className="mt-2 block text-slate-200"></span>
           </h1>
           <p className="mt-5 max-w-xl text-sm md:text-base text-slate-300">
             SPS LEGAL SERVICES accompagne particuliers et entreprises dans leurs
