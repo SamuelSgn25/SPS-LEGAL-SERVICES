@@ -430,7 +430,7 @@ function TeamSection() {
           <article className="group glass-panel flex flex-col items-center rounded-3xl p-5 transition hover:-translate-y-1 hover:border-sps-gold/60 hover:bg-sps-navy/60 md:flex-row md:items-stretch md:gap-5">
             <div className="relative h-40 w-40 overflow-hidden rounded-2xl md:h-44 md:w-36">
               <img
-                src="/assets/Gracia.jpeg"
+                src="/assets/Graçia.jpeg"
                 alt="Grâcia SOGADJI"
                 className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
               />
