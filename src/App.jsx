@@ -163,9 +163,7 @@ function Hero({ onOpenBooking }) {
               className="max-h-24 max-w-full object-contain"
             />
           </div>
-          <p className="mt-6 text-center text-xs text-slate-300">
-            Logo institutionnel utilisé pour les supports officiels de SPS LEGAL SERVICES.
-          </p>
+          
           <ul className="mt-6 w-full space-y-3 text-sm text-slate-200">
             <li className="flex items-start gap-3">
               <span className="mt-1 h-5 w-5 rounded-full bg-sps-gold/10 text-center text-xs font-semibold text-sps-gold">
