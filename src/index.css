@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sps-navy: #0b1f3b;
+  --sps-gold: #d4af37;
+  --sps-dark: #050814;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: theme('fontFamily.body');
+  background: radial-gradient(circle at top left, #111827 0, #020617 45%, #000 100%);
+  color: #f9fafb;
+}
+
+.glass-panel {
+  @apply bg-slate-900/70 border border-white/5 backdrop-blur-md shadow-soft-lg;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-default {
+  @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply font-heading text-3xl md:text-4xl font-semibold tracking-tight text-sps-gold;
+}
+
+.section-subtitle {
+  @apply mt-3 max-w-2xl text-sm md:text-base text-slate-300;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full border border-sps-gold/60 bg-sps-navy/40 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-sps-gold;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-sps-gold px-6 py-2.5 text-sm font-semibold text-sps-dark shadow-soft-lg transition hover:bg-yellow-400 hover:shadow-xl;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center rounded-full border border-sps-gold/70 px-6 py-2.5 text-sm font-semibold text-sps-gold transition hover:bg-sps-gold/10;
+}
+
