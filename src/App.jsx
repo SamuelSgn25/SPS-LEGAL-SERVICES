@@ -175,7 +175,7 @@ function Hero({ onOpenBooking }) {
               <span className="mt-1 h-5 w-5 rounded-full bg-sps-gold/10 text-center text-xs font-semibold text-sps-gold">
                 ✓
               </span>
-              <span>Procédures ANIP, civiles, commerciales, sociales et foncières.</span>
+              <span>Procédures civiles, commerciales, sociales et foncières.</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="mt-1 h-5 w-5 rounded-full bg-sps-gold/10 text-center text-xs font-semibold text-sps-gold">
